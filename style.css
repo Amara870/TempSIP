@@ -1,0 +1,142 @@
+/* */
+/*Reset default behaviors*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*Header class container to define block display*/
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: rgb(89, 89, 238);
+}
+
+/*try to redesign this to actually center text; maybe one container using table display*/
+
+/*Inner container to center content*/
+.inner_header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/*Title container to center title*/
+.title_container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+/*H1 styling*/
+.title_container h1 {
+    padding: 10px;
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*Navigation container to hold content*/
+.nav {
+    float: right;
+    height: 100%;
+}
+
+/*Navigation a tag styling and centering*/
+.nav a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    color: white;
+}
+
+/*Add padding to the end of the list to create space from the end of the container*/
+.nav a:last-child {
+    padding-right: 10px;;
+}
+
+/*Navigation list styling and centering*/
+.nav a li {
+    display: table-cell;
+    vertical-align: middle;;
+    height: 100%;
+}
+
+/*Body styling*/
+body {
+    background-color: pink;
+}
+
+
+/*Set Murals section to grid display to better center elements*/
+.murals {
+    display: grid;
+    place-items: center;
+    min-width: none;
+}
+
+/*Give the slideshow a nice contrasting shadow background*/
+.slideshow_container {
+    width: 100%;
+    max-width: 600px;
+    max-height: 600px;
+    box-shadow: 0 0 20px black;
+}
+
+/*Display images by 4, equal size and distance*/
+.row1_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1350px;
+}
+
+/*Make sizing consistant and give images a nice background*/
+.row1_container img {
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 10px black;
+}
+
+/*Make sizing consistant and give images a nice background*/
+.row2_container img {
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 10px black;
+}
+
+/*Display images by 4, equal size and distance*/
+.row2_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1350px;
+}
+
+/*Set flex direction, container width, and add padding to space out from next container*/
+.row1 {
+    flex-direction: row;
+    width: 80%;
+    padding-bottom: 5px;
+}
+
+/*Set flex direction, container width, and add padding to space out from next elemetn*/
+.row2 {
+    flex-direction: row;
+    width: 80%;
+    padding-bottom: 5px;
+}
+
+/* form {
+
+} */
+
+/* footer {
+    
+} */

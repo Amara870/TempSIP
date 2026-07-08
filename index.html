@@ -1,0 +1,109 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Homepage</title>
+        <link rel="stylesheet" href="../CSS/style.css">
+        <!-- Author: Amara Hill-->
+        <!-- Published: August 00, 2026-->
+    </head>
+
+    <header class="header">
+        <div class="inner_header">
+            <div class="title_container">
+                <h1>Safe Wings Window Decals</h1>
+            </div>
+            
+            <ul class="nav">
+                <!--Downloaded file of standards-->
+                <a href=""><li>Safety Standards</li></a>
+                <a href="#artists'-works"><li>Murals</li></a>
+                <a href="designer.html"><li>Design</li></a>
+                <a href="About_Us.html"><li>About Us</li></a>
+            </ul>
+        </div>
+        <!--To Do: links to info,  murals, designer, about us-->
+        
+        
+    </header>
+    <br><br>
+    <body>
+        <!--Change class and ID tags-->
+        <secton class="murals">
+            <!--Sample images to select from, past projects, artists' works-->
+            <div class="slideshow_container">
+                <!--To Do: Caption - Templates-->
+                <!--Automatic slideshow that stops on hover-->
+                <img id="slideshow" src="" alt="Example templates: Single dotted mural, repeating patterns" style="width: 600px; height: 350px;">
+            </div>
+           <br>
+            <div class="slideshow-buttons">
+                <!-- Left Arrow -->
+                <button aria-label="Previous" onclick="prevSlide()">&leftarrow;</button>
+                <!-- Right Arrow -->
+                <button aria-label="Next" onclick="nextSlide()">&rightarrow;</button>
+            </div>
+
+            <br><br>
+            <!--To Do: links to background of each, artist, designer options-->
+            <div class="row1_container">
+                <div class="row1">
+                    <img id="" src="../images/logo.png" alt="">
+                    <img id="" src="../images/dots.png" alt="" style="margin-left: 2%;">
+                    <img id="" src="../images/dotted mural.jpg" alt="" style="margin-left: 2%;">
+                    <img id="" src="../images/repeating_logo.jpg" alt="" style="margin-left: 2%;">
+                </div>
+            </div>
+            <br><br>
+            <div class="row2_container">
+                <div class="row2">
+                    <img id="" src="../images/elephant.jpg" alt="">
+                    <img id="" src="../images/jellyfish.jpg" alt="" style="margin-left: 2%;">
+                    <img id="" src="../images/cactus.jpg" alt="" style="margin-left: 2%;">
+                    <img id="" src="../images/pattern.png" alt="" style="margin-left: 2%;">
+                </div>
+            </div>
+        </secton>
+        <br><br>
+        <section id="form">
+            <h2>Get In Contact With Us!</h2>
+            <form name="contact-request" id="form-input">
+                <div>
+                    <label for="txtName/Company">Name/Company</label>
+                    <input type="text" id="txtName/Company" name="lblName/Company" placeholder="Amara Jane">
+                </div>
+
+                <div>
+                    <label for="txtDesignerChoice">What kind of decal are you looking for?</label>
+                    <input type="text" id="txtDesignerChoice" name="lblDesignerChoice" placeholder="Dotted Mural, Repeating pattern, Etc.">
+                </div>
+
+                <div>
+                    <label for="txtEmail">What's a good email for you?</label>
+                    <input type="text" id="txtEmail" name="lblEmail" placeholder="AmaraEmail@gmail.com">
+                </div>
+
+                <div>
+                    <label for="txtComment">Any additional comments or questions?</label>
+                    <input type="text" id="txtComment" name="lblComment" placeholder="">
+                </div>
+
+                <!--Format and send info to email-->
+                <button type="button">Submit!</button>
+            </form>
+        </section>
+
+        <script src="../JavaScript/script.js"></script>
+    </body>
+
+    <footer>
+        <info>
+            <!--Links to info on Bird Window Declas Standards-->
+        </info>
+        <socials>
+            <!--Author's socials and affiliations-->
+
+        </socials>
+    </footer>
+</html>
