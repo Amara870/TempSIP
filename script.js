@@ -2,10 +2,10 @@
 
 // slideshow image array
 let arrImages = [
-    "../images/download (1).jpg",
-    "../images/download (18).jpg",
-    "../images/images.png",
-    "..images/Company_logo.jpg"
+    "download (1).jpg",
+    "download (18).jpg",
+    "images.png",
+    "Company_logo.jpg"
 ];
 
 let currImg = 0;
